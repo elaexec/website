@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>ELA Health</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
         }
+        .header {
+    text-align: center;
+    padding: 15px 20px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
         .section {
-            padding: 50px 20px;
-            color: white;
+            padding: 100px 20px 50px;
+            color: #333;
         }
-        .section:nth-child(1) {
-            background-color: #FFDDC1; /* Pastel Red */
-        }
-        .section:nth-child(2) {
-            background-color: #C1E1FF; /* Pastel Blue */
-        }
-        .section:nth-child(3) {
-            background-color: #C1FFC1; /* Pastel Yellow (Greenish) */
-        }
+        .welcome-section { background-color: #B3D9FF; margin-top: 80px; /* Pastel Blue */ }
+        .about-section { background-color: #FFF5B3; /* Pastel Yellow */ }
+        .services-section { background-color: #FFB3B3; /* Pastel Red */ }
         h1, h2 {
             margin: 0;
+            font-weight: 600;
         }
         p {
             font-size: 1.2rem;
-        }
-        .cta-button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 1.2rem;
-            color: white;
-            background-color: #333;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
+            font-weight: 300;
         }
         .footer {
             background: #222;
@@ -48,19 +48,21 @@
     </style>
 </head>
 <body>
-    <div class="section">
-        <h1>Welcome to Your Website</h1>
-        <p>Your one-stop solution for [describe your service/product briefly].</p>
-        <a href="#" class="cta-button">Get Started</a>
+    <div class="header">ELA Health</div>
+    <div class="section welcome-section" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 50px 20px;">
+        
+        <h1>Welcome to ELA Health</h1>
+        <p>Your one-stop solution for health literacy and patient support.</p>
+        
     </div>
-    <div class="section">
+    <div class="section about-section">
         <h2>About Us</h2>
-        <p>We provide the best services to help you achieve your goals.</p>
+        <p>We empower patients with the knowledge to make informed health decisions.</p>
     </div>
-    <div class="section">
+    <div class="section services-section">
         <h2>Our Services</h2>
-        <p>Discover our wide range of offerings tailored for you.</p>
+        <p>Explore our resources and tools to navigate health insurance and care options.</p>
     </div>
-    <div class="footer">&copy; 2025 Your Company. All rights reserved.</div>
+    <div class="footer">&copy; 2025 ELA Health. All rights reserved.</div>
 </body>
 </html>
