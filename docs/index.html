@@ -54,7 +54,7 @@
             background-color: #FFF5B3; /* Pastel Yellow */
             padding: 100px 20px 100px;
         }
-        .services-section { 
+        .team-section { 
             background-color: #FFB3B3; /* Pastel Red */
             padding: 100px 20px 100px;
         }
@@ -71,6 +71,21 @@
             color: white;
             padding: 20px;
         }
+
+         /* Styles for images in the team section */
+        .team-image {
+            width: 150px; /* Adjust as needed */
+            height: 150px; /* Adjust as needed */
+            border-radius: 50%; /* Make images circular */
+            object-fit: cover; /* Ensure images fill the circle */
+            margin: 10px; /* Add spacing around images */
+        }
+
+        .team-member {
+            display: inline-block; /* Display team members in a row */
+            text-align: center; /* Center the content */
+            margin: 20px; /* Add spacing between team members */
+        }
     </style>
 </head>
 <body>
@@ -84,9 +99,12 @@
         <h2>About Us</h2>
         <p>We empower patients with the knowledge to make informed health decisions.</p>
     </div>
-    <div class="section services-section">
+     <div class="section services-section">
         <h2>Team</h2>
-        <p>Coming soon!</p>
+        <div class="team-member">
+            <img src="image1.jpg" alt="Team Member 1" class="team-image">
+            <p>Team Member 1</p>
+        </div>
     </div>
     <div class="footer">&copy; 2025 ELA Health. All rights reserved.</div>
         </div>
