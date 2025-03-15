@@ -50,6 +50,24 @@
             justify-content: center; /* Center content vertically */
            
         }
+
+        .welcome-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .welcome-image img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .welcome-text {
+            text-align: left;
+        }
+        
         .about-section { 
             background-color: #FFF5B3; /* Pastel Yellow */
             padding: 100px 20px 100px;
@@ -126,9 +144,16 @@
         <img src="ELA-Health-logo-lengthwise.png" alt="ELA Health Logo" style="width: 300px; height: 100px; object-fit: contain;">
             </div>
     <div class="section welcome-section">
-        <h1>Welcome to ELA Health</h1>
-        <p class="p1">Health insurance literacy, accessible, anytime, anywhere</p>
+    <div class="welcome-container">
+        <div class="welcome-image">
+            <img src="image1.jpg" alt="ELA Square Logo">
+        </div>
+        <div class="welcome-text">
+            <h1>Welcome to ELA Health</h1>
+            <p class="p1">Health insurance literacy, accessible, anytime, anywhere</p>
+        </div>
     </div>
+</div>
     <div class="section about-section">
         <h2>About Us</h2>
         <p class="p1">Founded in September 2024, ELA Health works to empower patients with the knowledge to make informed health decisions.</p>
